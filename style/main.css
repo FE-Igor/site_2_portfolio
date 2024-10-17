@@ -82,7 +82,7 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .container {
-    padding: 15px;
+    padding: 14px;
   }
   .story_iner {
     flex-wrap: wrap;
