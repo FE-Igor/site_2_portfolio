@@ -60,10 +60,34 @@ body {
   padding-bottom: 71px;
   margin: 0;
 }
-
-/* Раздел "Our story" */
-.story {
+/* Раздел Navigation */
+.navbar_inner {
+  margin: 20px 0 32px;
+  display: flex;
+  justify-content: space-between;
 }
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li a:hover {
+  color: rgb(0, 164, 229);
+  font-weight: 700;
+  /* box-sizing: border-box; */
+}
+.nav li a {
+  text-transform: uppercase;
+  color: rgb(72, 85, 91);
+  text-decoration: none;
+  padding-left: 28px;
+  gap: 25px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  }
+/* Раздел "Our story" */
 .story_left {
   max-width: 398px;
   margin-right: 30px;
@@ -73,7 +97,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  padding: 50px 0;
+  padding: 50px 0 15px;
 }
 .story_title_2:after {
   content: '';
@@ -143,5 +167,12 @@ body {
   }
   .story-item:nth-child(3) {
   margin-right: 20px;
+  }
+  .nav {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  }
+  .story_title_2 {
+    padding: 0px 0 15px;
   }
 }
