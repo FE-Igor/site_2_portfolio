@@ -136,13 +136,13 @@ body {
   margin-right: 20px;
 }
 .story-item:nth-child(1) {
-  background-image: url(/img/img1.png);
+  background-image: url(../img/img1.png);
 }
 .story-item:nth-child(2) {
-  background-image: url(/img/img2.png);
+  background-image: url(../img/img2.png);
 }
 .story-item:nth-child(3) {
-  background-image: url(/img/img3.png);
+  background-image: url(../img/img3.png);
   margin-right: 0;
 }
 @media screen and (max-width: 1440px) {
