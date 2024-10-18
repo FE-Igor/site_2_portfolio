@@ -15,6 +15,52 @@ body {
   margin: 0 auto;
   padding: 0 250px;
 }
+/* Раздел Heder */
+.Header {
+  max-width: 1440px;
+  background-image: url(/img/bg.png);
+  background-color: #00A4E5;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.Header_iner {
+  max-width: auto;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.logo {
+  width: 101px;
+  padding-top: 41px;
+  margin: 0 auto;
+  padding-bottom: 298px;
+}
+.Header_title_1 {
+  font-family: "Bebas Neue";
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  letter-spacing: 3.6px;
+}
+.Header-text {
+  margin: 0;
+  padding-bottom: 222px;
+}
+.Header_title_3 {
+  /* align-items: flex-end; */
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding-bottom: 71px;
+  margin: 0;
+}
+
 /* Раздел "Our story" */
 .story {
 }
@@ -90,12 +136,12 @@ body {
 }
 @media screen and (max-width: 500px) {
   .story_right {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
   .story-item {
     margin-bottom: 20px;
   }
   .story-item:nth-child(3) {
-    margin-bottom: 0;
+  margin-right: 20px;
   }
 }
